@@ -1,95 +1,100 @@
-body {
-  font-family: "Inter", sans-serif;
- 
-      
+* {
+  font-family: "Inter", sans-serif;  
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-    display: grid;
-    background-color: #043873;
-    padding: 16px 220px;
-    justify-content: space-between;
-    color: white;
+  display: flex;
+  background-color: #043873;
+  padding: 16px 220px;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: none;
 }
 
-nav {
-    text-align: right;
+.nav-list {
+  text-decoration: none; 
+  color: #FFFFFF;
+  gap: 32px;
 }
 
-#hero-section {
-    background-color: #043873;
-    color: white;
+.hero-section {
+  background-color: #043873;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
 #login {
-    background-color: #FFE492;
-    padding: 16px 40px 16px 40px;
-    border-radius: 8px;
-    height: 60px;
-    width: 126px;
-    gap: 10px;
-    size: 18px;
-    line-height: 23px;
-    letter-spacing: -2%;
+  background-color: #FFE492;
+  padding: 16px 40px 16px 40px;
+  border-radius: 8px;
+  height: 60px;
+  width: 126px;
+  gap: 10px;
+  size: 18px;
+  line-height: 23px;
+  letter-spacing: -2%;
 }
 
-#free-trial {
-    background-color: #4F9CF9;
-    padding: 16px 24px 16px 24px;
-    border-radius: 8px;
-    gap: 10px;
-    color: white;
-    size: 18px;
-    line-height: 23px;
-    letter-spacing: -2%;
+.free-trial {
+  background-color: #4F9CF9;
+  padding: 16px 24px 16px 24px;
+  border-radius: 8px;
+  gap: 10px;
+  color: white;
+  size: 18px;
+  line-height: 23px;
+  letter-spacing: -2%;
 }
 
 h1 {
-    width: 656px;
-    height: 154px;
-    size: 64px;
-    line-height: 100%;
-    letter-spacing: -2%;
+  width: 656px;
+  height: 154px;
+  size: 64px;
+  line-height: 100%;
+  letter-spacing: -2%;
 }
 
-#image-container {
-    width: 524px;
-    height: 349px;
-    gap: 4px;
-    background-color: #C4DEFD;
+.image-container {
+  width: 524px;
+  height: 349px;
+  gap: 4px;
+  background-color: #C4DEFD;
 }
 
-#get-started {
-    width: 201px;
-    height: 63px;
-    padding: 20px 40px 20px 40px;
-    gap: 10px;
-    background-color: #4F9CF9;
-    color: white;
-    size: 18px;
-    line-height: 23px;
-    letter-spacing: -2%;
-   
+.get-started {
+  width: 201px;
+  height: 63px;
+  padding: 20px 40px 20px 40px;
+  gap: 10px;
+  background-color: #4F9CF9;
+  color: white;
+  size: 18px;
+  line-height: 23px;
+  letter-spacing: -2%; 
 }
 
 #work-together-image {
-    width: 10px;
-    height: 261px;
-    border: 2px;
-    border-color: #A7CEFC;
+  border: 2px;
+  border-color: #A7CEFC;
 }
 
-#work-management {
-    background-color: white;
-    /* padding: 140px 220px 140px 220px; */
-    gap: 100px;
-    width: 1920px;
-    height: 1588px;
-    top: 921px;
+.work-management {
+  background-color: white;
+  /* padding: 140px 220px 140px 220px; */
+  gap: 100px;
+  width: 1520px;
+  height: 728px;
+  top: 921px;
+}
+
+.work-field {
+  display: flex;
 }
 
 .extension {
@@ -97,27 +102,35 @@ h1 {
 }
 
 #work-everywhere {
-    background-color: #043873;
-    height: 154px;
-    width: 1600px;
-    top: 5000px;
-    padding: 140px 220px;
-    color: #FFFFFF;
+  background-color: #043873;
+  height: 154px;
+  width: 1600px;
+  top: 5000px;
+  padding: 140px 220px;
+  color: #FFFFFF;
 }
 
 #personal-plan {
-    background-color: #043873;
-    padding: 80px 44px;
-    border-radius: 10px;
+  background-color: #043873;
+  padding: 80px 44px;
+  border-radius: 10px;
 }
 
 #personal-plan > h4 {
-    color: #FFE492;
+  color: #FFE492;
 }
 
 .sponsors {
-    display: grid;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#sponsor-header {
+  text-align: center;
+  size: 72px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  font-style: bold;
 }
 
 .applications {
@@ -125,7 +138,6 @@ h1 {
   padding: 50px 100px;
   gap: 100px;
   color: white;
-
 }
 
 .contact-sales {
@@ -138,7 +150,8 @@ h1 {
   color: white;
 }
 
-footer {
+.footer-container {
+  display: flex;
   background-color: #043873;
   color: white;
   padding: 140px 220px 420px 220px;
@@ -146,4 +159,31 @@ footer {
   height: 474px;
   gap: 200px;
 
+}
+
+.client2-testimonial {
+  background-color: #4F9CF9;
+  color: white;
+}
+
+.client-name {
+  font-weight: 600;
+  size: 24px;
+  line-height: 36px;
+  color: #212529;
+}
+
+.social-links {
+  background-color: #043873;
+}
+
+.client-feedback {
+  display: flex;
+  border-radius: 10px;
+  gap: 32px;
+}
+
+.data-section {
+  display: flex;
+  justify-content: center;
 }
