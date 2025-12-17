@@ -1,5 +1,5 @@
 * {
-  font-family: "Inter", sans-serif;  
+  font-family: Inter, sans-serif;
 }
 
 a {
@@ -16,8 +16,8 @@ header {
 }
 
 .nav-list {
-  text-decoration: none; 
-  color: #FFFFFF;
+  text-decoration: none;
+  color: #ffffff;
   gap: 32px;
 }
 
@@ -30,8 +30,8 @@ header {
 }
 
 #login {
-  background-color: #FFE492;
-  padding: 16px 40px 16px 40px;
+  background-color: #ffe492;
+  padding: 16px 40px;
   border-radius: 8px;
   height: 60px;
   width: 126px;
@@ -42,8 +42,8 @@ header {
 }
 
 .free-trial {
-  background-color: #4F9CF9;
-  padding: 16px 24px 16px 24px;
+  background-color: #4f9cf9;
+  padding: 16px 24px;
   border-radius: 8px;
   gap: 10px;
   color: white;
@@ -64,24 +64,24 @@ h1 {
   width: 524px;
   height: 349px;
   gap: 4px;
-  background-color: #C4DEFD;
+  background-color: #c4defd;
 }
 
 .get-started {
   width: 201px;
   height: 63px;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px;
   gap: 10px;
-  background-color: #4F9CF9;
+  background-color: #4f9cf9;
   color: white;
   size: 18px;
   line-height: 23px;
-  letter-spacing: -2%; 
+  letter-spacing: -2%;
 }
 
 #work-together-image {
   border: 2px;
-  border-color: #A7CEFC;
+  border-color: #a7cefc;
 }
 
 .work-management {
@@ -107,7 +107,7 @@ h1 {
   width: 1600px;
   top: 5000px;
   padding: 140px 220px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #personal-plan {
@@ -117,7 +117,7 @@ h1 {
 }
 
 #personal-plan > h4 {
-  color: #FFE492;
+  color: #ffe492;
 }
 
 .sponsors {
@@ -142,7 +142,7 @@ h1 {
 
 .contact-sales {
   background-color: #043873;
-  padding: 140px 220px 32px 220px;
+  padding: 140px 220px 32px;
   gap: 200px;
   width: 1920px;
   height: 600px;
@@ -154,15 +154,14 @@ h1 {
   display: flex;
   background-color: #043873;
   color: white;
-  padding: 140px 220px 420px 220px;
+  padding: 140px 220px 420px;
   width: 1920px;
   height: 474px;
   gap: 200px;
-
 }
 
 .client2-testimonial {
-  background-color: #4F9CF9;
+  background-color: #4f9cf9;
   color: white;
 }
 
