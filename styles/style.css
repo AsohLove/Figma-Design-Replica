@@ -132,7 +132,7 @@ h1 {
   gap: 24px;
 }
 
-#personal-plan {
+.personal-plan {
   background-color: #043873;
   padding: 80px 44px;
   border-radius: 10px;
@@ -140,7 +140,7 @@ h1 {
   gap: 25px;
 }
 
-#personal-plan > h4 {
+.personal-plan > h4 {
   color: #ffe492;
 }
 
