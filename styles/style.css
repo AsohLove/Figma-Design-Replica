@@ -277,6 +277,7 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 32px;
+  margin-bottom: 54px;
 }
 
 .free-plan {
