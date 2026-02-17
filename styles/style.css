@@ -66,8 +66,8 @@ h1 {
 }
 
 .image-container {
-  width: 524px;
-  height: 349px;
+  width: 300px;
+  height: 300px;
   gap: 4px;
   background-color: #c4defd;
 }
@@ -117,7 +117,7 @@ h1 {
   background-color: #043873;
   display: grid;
   text-align: center;
-  padding: 160px 200px;
+  padding: 160px 190px;
   position: relative;
   color: #fff;
 }
@@ -262,7 +262,7 @@ h1 {
 .data-section {
   display: flex;
   align-items: center;
-  padding: 140px 220px;
+  justify-content: center;
 }
 
 .customize {
@@ -312,146 +312,198 @@ ul {
   list-style-image: url("/images/Bulleticon.png");
 }
 
-@media (max-width: 768px) {
-  header,
-  .hero-section,
-  .work-field,
-  .extension,
-  .work-everywhere,
-  .applications,
-  .customize,
-  .contact-sales,
-  .footer-container {
-    padding: 60px 20px;
-  }
-
+@media (max-width: 480px) {
   header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    padding: 16px 20px;
+    gap: 12px;
   }
 
   .nav-list {
     flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .nav-list a,
+  .nav-list button {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 0;
   }
 
   .hero-section {
     grid-template-columns: 1fr;
-    text-align: center;
-    gap: 40px;
-  }
-
-  .image-container {
-    width: 100%;
-    height: auto;
-  }
-
-  .hero-section,
-  .image-container {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-
-  .work-field,
-  .extension,
-  .customize {
-    flex-direction: column;
+    padding: 60px 20px;
     text-align: center;
   }
 
-  .work-field img,
-  .customize img,
-  .extension img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .work-management {
-    gap: 50px;
-    padding: 0 20px;
-  }
-
-  .pricing-plan-subscription {
-    grid-template-columns: 1fr;
-  }
-
-  .client-feedback {
-    grid-template-columns: 1fr;
-  }
-
-  .applications {
-    flex-direction: column;
-    text-align: center;
-    gap: 40px;
-  }
-
-  .contact-sales {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-    padding: 50px 20px;
-  }
-
-  .footer-container {
-    grid-template-columns: 1fr;
-    padding: 40px 20px;
-    gap: 40px;
-  }
-
-  .social-links {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-
-  h1 {
+  .hero-section h1 {
     font-size: 32px;
     line-height: 1.2;
   }
 
-  h2 {
-    font-size: 28px;
+  .hero-section p {
+    font-size: 14px;
   }
 
-  p {
-    font-size: 16px;
-    line-height: 1.5;
+  .hero-section .image-container {
+    width: 100%;
+    height: 180px;
   }
 
-  button {
-    width: auto;
+  .work-field {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  #work-together-image img {
+    width: 80%;
+    height: auto;
     margin: 0 auto;
   }
 
-  #sponsor-header {
-    font-size: 48px;
+  .extension,
+  .customize {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
   }
 
-  #client-header {
-    font-size: 40px;
-    line-height: 1.2;
-  }
-}
-
-@media (max-width: 1024px) {
-  header {
-    padding: 16px 40px;
+  .extension .image-container,
+  .customize .image-container {
+    width: 100%;
+    height: 150px;
   }
 
   .pricing-plan-subscription {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .free-plan,
+  .personal-plan {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .free-plan-btn,
+  .get-started {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  .client-feedback {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-x: auto;
+    padding: 60px 20px;
+    gap: 20px;
+  }
+  .client1-feedback,
+  .client2-testimonial {
+    padding: 30px 20px;
+  }
+
+  .applications {
+    flex-direction: column;
+    padding: 60px 20px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .data-section {
+    flex-direction: column;
+    padding: 60px 20px;
+    gap: 20px;
+  }
+
+  .contact-sales {
+    padding: 60px 20px;
+    gap: 15px;
+  }
+
+  .icon-class {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 30px;
+  }
+
+  .social-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 12px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
   }
 
   .hero-section,
   .work-field,
   .extension,
-  .applications,
   .customize,
+  .applications,
   .data-section {
-    padding: 100px 40px;
-    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .pricing-plan-subscription {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .free-plan,
+  .nav-list {
+    display: none;
+  }
+
+  .personal-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
