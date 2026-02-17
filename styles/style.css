@@ -340,6 +340,18 @@ ul {
     text-align: center;
   }
 
+  h1 {
+    font-size: 28px !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
   .hero-section h1 {
     font-size: 32px;
     line-height: 1.2;
@@ -405,6 +417,7 @@ ul {
     padding: 60px 20px;
     gap: 20px;
   }
+
   .client1-feedback,
   .client2-testimonial {
     padding: 30px 20px;
@@ -443,16 +456,6 @@ ul {
     flex-direction: column;
     text-align: center;
     gap: 10px;
-  }
-
-  h1 {
-    font-size: 28px !important;
-  }
-  h2 {
-    font-size: 24px !important;
-  }
-  p {
-    font-size: 14px !important;
   }
 }
 
