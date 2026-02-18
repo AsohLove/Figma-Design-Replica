@@ -1,7 +1,23 @@
 # Figma Design Replica
 
-## Project description
-A Figma design replication using HTML and CSS.
+## :beginner: Project description
+This is a repication of landing page from its Figma design built using **HTML**, **CSS** and **responsive layout design**. (no JavaScript)
+
+### :file_folder: Project Structure
+
+```text
+|
+|--- .github/
+| |--- workflows/
+|    |--- linters.yml # Contains the linters code for checking code errors
+|
+|--- index.html # The main HTML file containing the page structure
+|
+|--- style.css # All CSS styling
+|
+|---README.md # Project overview and documentation
+|
+```
 
 **Code snippet**
 
@@ -42,27 +58,34 @@ A Figma design replication using HTML and CSS.
    </section>
 ```
 
+### :star: Tech Stack
+- HTML
+- CSS
+- VS Code/Browser
+
 ## Web page Preview
 
 ![Whitepace Landing Page](/images/Whitespace.png)
 
-## About
+## :sparkles: About
 This is project that entails replicating a Figma design for a **Whitepace Landing Page** using HTML and CSS. Some concepts used and implemented include;
 - Flexbox and CSS Grid for layout
 - Semantic HTML
 - Google Fonts
 - Responsive design for mobile and tablet
 
+### :electric_plug: How to run this project
+1) Clone the repository [here](git@github.com:AsohLove/Figma-Design-Replica.git) OR download it as a ZIP file and extract it.
+2) Open the `index.html` in a browser
+3) You can now view the Whitepace Landing Page replica
 
 
-### Author
-
-**Love Asoh**
+:technologist: **Love Asoh**
 
 - GitHub: [@loveasoh](https://github.com/AsohLove)
 - Twitter: [@loveasoh](https://x.com/LoveTheModifier)
 - LinkedIn: [love asoh](https://www.linkedin.com/in/asohlove/)
 
 
-## License
+## :lock: License
 This project is [MIT](./LICENSE) licensed.
