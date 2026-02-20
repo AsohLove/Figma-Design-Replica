@@ -3,9 +3,10 @@
   box-sizing: border-box;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -476,7 +477,7 @@ ul {
 }
 
 @media (max-width: 768px) {
-    header {
+  header {
     display: flex;
     justify-content: space-between;
     padding: 16px 20px;
@@ -500,11 +501,6 @@ ul {
     padding: 80px 40px;
     gap: 30px;
     text-align: center;
-  }
-
-  .pricing-plan-subscription {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
   }
 
   .sponsors {
