@@ -42,7 +42,7 @@ header {
   color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 140px 5%;
+  padding: 141px 5%;
   align-items: center;
   justify-content: space-around;
   gap: 64px;
