@@ -183,6 +183,7 @@ h1 {
   background-color: #043873;
   color: white;
   text-align: center;
+  padding-top: 10px;
 }
 
 .taskey-btn {
@@ -274,6 +275,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .customize {
