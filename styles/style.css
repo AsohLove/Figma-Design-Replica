@@ -206,11 +206,11 @@ h1 {
 
 .footer-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   background-color: #043873;
   color: white;
   padding: 100px 120px 120px;
-  gap: 200px;
+  gap: 40px;
 }
 
 .social-links {
@@ -491,7 +491,7 @@ ul {
     width: 100%;
   }
 
-   .hamburger {
+  .hamburger {
     display: block;
   }
 
