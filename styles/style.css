@@ -529,4 +529,9 @@ ul {
   .work-everywhere {
     padding: 60px 20px;
   }
+
+  .social-apps {
+    display: flex;
+    justify-content: space-around;
+  }
 }
